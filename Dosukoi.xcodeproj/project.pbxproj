@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D5380814C1E44A00621579 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5380714C1E44A00621579 /* UIKit.framework */; };
+		D2D5380A14C1E44A00621579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5380914C1E44A00621579 /* Foundation.framework */; };
+		D2D5380C14C1E44A00621579 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5380B14C1E44A00621579 /* CoreGraphics.framework */; };
+		D2D5381214C1E44A00621579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D5381014C1E44A00621579 /* InfoPlist.strings */; };
+		D2D5381414C1E44A00621579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5381314C1E44A00621579 /* main.m */; };
+		D2D5381814C1E44A00621579 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5381714C1E44A00621579 /* DKAppDelegate.m */; };
+		D2D5381B14C1E44A00621579 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5381914C1E44A00621579 /* MainStoryboard.storyboard */; };
+		D2D5381E14C1E44A00621579 /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5381D14C1E44A00621579 /* DKViewController.m */; };
+		D2D5382614C1E44A00621579 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5382514C1E44A00621579 /* SenTestingKit.framework */; };
+		D2D5382714C1E44A00621579 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5380714C1E44A00621579 /* UIKit.framework */; };
+		D2D5382814C1E44A00621579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5380914C1E44A00621579 /* Foundation.framework */; };
+		D2D5383014C1E44A00621579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D5382E14C1E44A00621579 /* InfoPlist.strings */; };
+		D2D5383314C1E44A00621579 /* DosukoiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5383214C1E44A00621579 /* DosukoiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D5382914C1E44A00621579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D537FA14C1E44A00621579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5380214C1E44A00621579;
+			remoteInfo = Dosukoi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D5380314C1E44A00621579 /* Dosukoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dosukoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5380714C1E44A00621579 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2D5380914C1E44A00621579 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2D5380B14C1E44A00621579 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2D5380F14C1E44A00621579 /* Dosukoi-Info.plist */ = {isa = PBXFileReference; path = "Dosukoi-Info.plist"; sourceTree = "<group>"; };
+		D2D5381114C1E44A00621579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2D5381314C1E44A00621579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2D5381514C1E44A00621579 /* Dosukoi-Prefix.pch */ = {isa = PBXFileReference; path = "Dosukoi-Prefix.pch"; sourceTree = "<group>"; };
+		D2D5381614C1E44A00621579 /* DKAppDelegate.h */ = {isa = PBXFileReference; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		D2D5381714C1E44A00621579 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		D2D5381A14C1E44A00621579 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2D5381C14C1E44A00621579 /* DKViewController.h */ = {isa = PBXFileReference; path = DKViewController.h; sourceTree = "<group>"; };
+		D2D5381D14C1E44A00621579 /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		D2D5382414C1E44A00621579 /* DosukoiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DosukoiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5382514C1E44A00621579 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2D5382D14C1E44A00621579 /* DosukoiTests-Info.plist */ = {isa = PBXFileReference; path = "DosukoiTests-Info.plist"; sourceTree = "<group>"; };
+		D2D5382F14C1E44A00621579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2D5383114C1E44A00621579 /* DosukoiTests.h */ = {isa = PBXFileReference; path = DosukoiTests.h; sourceTree = "<group>"; };
+		D2D5383214C1E44A00621579 /* DosukoiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DosukoiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D5380014C1E44A00621579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5380814C1E44A00621579 /* UIKit.framework in Frameworks */,
+				D2D5380A14C1E44A00621579 /* Foundation.framework in Frameworks */,
+				D2D5380C14C1E44A00621579 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5382014C1E44A00621579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5382614C1E44A00621579 /* SenTestingKit.framework in Frameworks */,
+				D2D5382714C1E44A00621579 /* UIKit.framework in Frameworks */,
+				D2D5382814C1E44A00621579 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D537F814C1E44A00621579 = {
+			isa = PBXGroup;
+			children = (
+				D2D5380D14C1E44A00621579 /* Dosukoi */,
+				D2D5382B14C1E44A00621579 /* DosukoiTests */,
+				D2D5380614C1E44A00621579 /* Frameworks */,
+				D2D5380414C1E44A00621579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D5380414C1E44A00621579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5380314C1E44A00621579 /* Dosukoi.app */,
+				D2D5382414C1E44A00621579 /* DosukoiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D5380614C1E44A00621579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5380714C1E44A00621579 /* UIKit.framework */,
+				D2D5380914C1E44A00621579 /* Foundation.framework */,
+				D2D5380B14C1E44A00621579 /* CoreGraphics.framework */,
+				D2D5382514C1E44A00621579 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D5380D14C1E44A00621579 /* Dosukoi */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5381614C1E44A00621579 /* DKAppDelegate.h */,
+				D2D5381714C1E44A00621579 /* DKAppDelegate.m */,
+				D2D5381914C1E44A00621579 /* MainStoryboard.storyboard */,
+				D2D5381C14C1E44A00621579 /* DKViewController.h */,
+				D2D5381D14C1E44A00621579 /* DKViewController.m */,
+				D2D5380E14C1E44A00621579 /* Supporting Files */,
+			);
+			path = Dosukoi;
+			sourceTree = "<group>";
+		};
+		D2D5380E14C1E44A00621579 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5380F14C1E44A00621579 /* Dosukoi-Info.plist */,
+				D2D5381014C1E44A00621579 /* InfoPlist.strings */,
+				D2D5381314C1E44A00621579 /* main.m */,
+				D2D5381514C1E44A00621579 /* Dosukoi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D5382B14C1E44A00621579 /* DosukoiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5383114C1E44A00621579 /* DosukoiTests.h */,
+				D2D5383214C1E44A00621579 /* DosukoiTests.m */,
+				D2D5382C14C1E44A00621579 /* Supporting Files */,
+			);
+			path = DosukoiTests;
+			sourceTree = "<group>";
+		};
+		D2D5382C14C1E44A00621579 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5382D14C1E44A00621579 /* DosukoiTests-Info.plist */,
+				D2D5382E14C1E44A00621579 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D5380214C1E44A00621579 /* Dosukoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5383614C1E44A00621579 /* Build configuration list for PBXNativeTarget "Dosukoi" */;
+			buildPhases = (
+				D2D537FF14C1E44A00621579 /* Sources */,
+				D2D5380014C1E44A00621579 /* Frameworks */,
+				D2D5380114C1E44A00621579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dosukoi;
+			productName = Dosukoi;
+			productReference = D2D5380314C1E44A00621579 /* Dosukoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D5382314C1E44A00621579 /* DosukoiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5383914C1E44A00621579 /* Build configuration list for PBXNativeTarget "DosukoiTests" */;
+			buildPhases = (
+				D2D5381F14C1E44A00621579 /* Sources */,
+				D2D5382014C1E44A00621579 /* Frameworks */,
+				D2D5382114C1E44A00621579 /* Resources */,
+				D2D5382214C1E44A00621579 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D5382A14C1E44A00621579 /* PBXTargetDependency */,
+			);
+			name = DosukoiTests;
+			productName = DosukoiTests;
+			productReference = D2D5382414C1E44A00621579 /* DosukoiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D537FA14C1E44A00621579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = D2D537FD14C1E44A00621579 /* Build configuration list for PBXProject "Dosukoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2D537F814C1E44A00621579;
+			productRefGroup = D2D5380414C1E44A00621579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D5380214C1E44A00621579 /* Dosukoi */,
+				D2D5382314C1E44A00621579 /* DosukoiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D5380114C1E44A00621579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5381214C1E44A00621579 /* InfoPlist.strings in Resources */,
+				D2D5381B14C1E44A00621579 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5382114C1E44A00621579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5383014C1E44A00621579 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2D5382214C1E44A00621579 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D537FF14C1E44A00621579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5381414C1E44A00621579 /* main.m in Sources */,
+				D2D5381814C1E44A00621579 /* DKAppDelegate.m in Sources */,
+				D2D5381E14C1E44A00621579 /* DKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5381F14C1E44A00621579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5383314C1E44A00621579 /* DosukoiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D5382A14C1E44A00621579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D5380214C1E44A00621579 /* Dosukoi */;
+			targetProxy = D2D5382914C1E44A00621579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D5381014C1E44A00621579 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5381114C1E44A00621579 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2D5381914C1E44A00621579 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5381A14C1E44A00621579 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D2D5382E14C1E44A00621579 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5382F14C1E44A00621579 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D5383414C1E44A00621579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2D5383514C1E44A00621579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D5383714C1E44A00621579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
+				INFOPLIST_FILE = "Dosukoi/Dosukoi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2D5383814C1E44A00621579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
+				INFOPLIST_FILE = "Dosukoi/Dosukoi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2D5383A14C1E44A00621579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dosukoi.app/Dosukoi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
+				INFOPLIST_FILE = "DosukoiTests/DosukoiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D2D5383B14C1E44A00621579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dosukoi.app/Dosukoi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
+				INFOPLIST_FILE = "DosukoiTests/DosukoiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D537FD14C1E44A00621579 /* Build configuration list for PBXProject "Dosukoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5383414C1E44A00621579 /* Debug */,
+				D2D5383514C1E44A00621579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5383614C1E44A00621579 /* Build configuration list for PBXNativeTarget "Dosukoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5383714C1E44A00621579 /* Debug */,
+				D2D5383814C1E44A00621579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2D5383914C1E44A00621579 /* Build configuration list for PBXNativeTarget "DosukoiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5383A14C1E44A00621579 /* Debug */,
+				D2D5383B14C1E44A00621579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D537FA14C1E44A00621579 /* Project object */;
+}
