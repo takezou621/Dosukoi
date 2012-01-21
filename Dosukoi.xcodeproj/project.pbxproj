@@ -524,6 +524,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dosukoi.app/Dosukoi";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takeshi Kawai (MW87WM6F75)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -532,7 +534,9 @@
 				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
 				INFOPLIST_FILE = "DosukoiTests/DosukoiTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5905A55-788F-46B4-BCA2-711090673B40";
+				SDKROOT = iphoneos;
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -541,6 +545,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dosukoi.app/Dosukoi";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takeshi Kawai (MW87WM6F75)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -549,7 +555,9 @@
 				GCC_PREFIX_HEADER = "Dosukoi/Dosukoi-Prefix.pch";
 				INFOPLIST_FILE = "DosukoiTests/DosukoiTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5905A55-788F-46B4-BCA2-711090673B40";
+				SDKROOT = iphoneos;
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -564,7 +572,7 @@
 				D2D5383514C1E44A00621579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D2D5383614C1E44A00621579 /* Build configuration list for PBXNativeTarget "Dosukoi" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +581,7 @@
 				D2D5383814C1E44A00621579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		D2D5383914C1E44A00621579 /* Build configuration list for PBXNativeTarget "DosukoiTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +590,7 @@
 				D2D5383B14C1E44A00621579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
